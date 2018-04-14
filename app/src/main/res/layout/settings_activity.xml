@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Find Events by Date"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/today"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_style_1"
+            android:text="Today"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/tomorrow"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_style_1"
+            android:text="Tomorrow"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/this_week"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_style_1"
+            android:text="This Week"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/this_month"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button_style_1"
+            android:text="This Month"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="or"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/select_date"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_style_1"
+        android:text="SELECT DATE"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="5dp"
+        android:text="Find Events"
+        android:drawableStart="@drawable/ic_search"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

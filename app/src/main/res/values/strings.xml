@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Event Manager</string>
+    <string name="eventsTab_text">Events</string>
+    <string name="your_list_tab_text">Your List</string>
+
+    <!-- Settings menu item -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Setting Activity title -->
+    <string name="settings_title">Event Settings</string>
+
+
+    <string name="share">Share</string>
+    <string name="mail_button">Mail to Organizer</string>
+    <string name="add_button">Add to List</string>
+    <string name="calendar_button">Add to Calendar</string>
+
+    <string name="date_from">From Date</string>
+    <string name="date_to">To Date</string>
+    <string name="preferences_date">Events Filter</string>
+    <string name="default_time">3:44 PM</string>
+    <string name="default_title">Title</string>
+    <string name="default_date">Sat, Dec 09, 2017</string>
+    <string name="default_notice"></string>
+
+    <string name="name_institution">Event Manager</string>
+
+
+    <string name="about_tifr">About Event Manager</string>
+    <string name="about_description"></string>
+
+
+    <string name="contact_details">Contact Details</string>
+    <string name="add"></string>
+    <string name="tel"></string>
+    <string name="web"></string>
+
+
+</resources>
